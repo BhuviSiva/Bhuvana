@@ -1,0 +1,30 @@
+*{
+  margin: 2px;
+  padding: 2px;
+} 
+body { background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("new\ one\ back.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+  body {  
+    background-color: deepskyblue;  
+  } 
+#container {
+  display: flex;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #d16fb4cc;
+}
